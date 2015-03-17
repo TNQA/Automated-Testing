@@ -1,0 +1,295 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "step_name": "1.",
+      "url": "http://www.flex-qa.bloxcms.com/eedition/page-r/page_b9b91542-df26-5a9e-83fb-9f824c84ce86.html/?oin32ion23"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "id",
+        "value": "eedition-map-container"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "id",
+        "value": "eedition-segments-container"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "id",
+        "value": "eedition-thumbnails-container"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//span[@id='eedition-hamburger']/i"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "id",
+        "value": "eedition-mode"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//span[@id='eedition-prev']/i"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//span[@id='eedition-next']/i"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//span[@id='help-overlay-menu']/i"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='eedition-map-container']/map/area[3]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "200"
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='eedition-segments-container']/div"
+      },
+      "propertyName": "transform",
+      "value": "matrix(1, 0, 0, 1, 0, -16914)"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='eedition-map-container']/map/area[5]"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "html.mm-opened"
+      }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "segment-420f1ef2-c803-11e4-a09b-3751164a3464"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "60"
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='test-420f1ef2-c803-11e4-a09b-3751164a3464']/div"
+      },
+      "propertyName": "transform",
+      "value": "matrix(2, 0, 0, 2, -960, -323)"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "mm-blocker"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "span.segment-web-enhanced"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": ".segment-title"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": ".segment-title"
+      },
+      "propertyName": "color",
+      "value": "rgba(44,62,80,1)"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='segment-dialog-b913cf82-c800-11e4-a0d1-cfe72fe540db']/div[2]"
+      },
+      "attributeName": "style",
+      "value": "font-size: 67.85px;"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": ".fa-pencil"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": ".fa-pencil"
+      },
+      "propertyName": "color",
+      "value": "rgba(231,76,60,1)"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "span.segment-byline"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": "span.segment-byline"
+      },
+      "propertyName": "color",
+      "value": "rgba(231,76,60,1)"
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882']/div[4]/span"
+      },
+      "text": "By MICHAEL MARTZ Richmond Times-Dispatch"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": ".fa-clock-o"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": ".fa-clock-o"
+      },
+      "propertyName": "color",
+      "value": "rgba(189,195,199,1)"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "span.segment-starttime"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": "span.segment-starttime"
+      },
+      "propertyName": "color",
+      "value": "rgba(189,195,199,1)"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": ".segment-timeinfo"
+      },
+      "attributeName": "style",
+      "value": "font-size: 22.6167px;"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": ".segment-gallery"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882']/div[6]/div[2]/div/img"
+      }
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882']/div[6]/div[2]/div/img"
+      },
+      "attributeName": "style",
+      "value": "height: 459px; display: inline; width: 689px;"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "#segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882 > div.segment-content > div.segment-gallery > div.segment-gallery-asset > div.segment-content-image-description > div.segment-content-caption > span"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": "#segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882 > div.segment-content > div.segment-gallery > div.segment-gallery-asset > div.segment-content-image-description > div.segment-content-caption > span"
+      },
+      "propertyName": "color",
+      "value": "rgba(231,76,60,1)"
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "css selector",
+        "value": "#segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882 > div.segment-content > div.segment-gallery > div.segment-gallery-asset > div.segment-content-image-description > div.segment-content-caption > span"
+      },
+      "text": "BOB BROWN/TIMES-DISPATCH"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

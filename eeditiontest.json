@@ -263,7 +263,7 @@
         "value": "//div[@id='segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882']/div[6]/div[2]/div/img"
       },
       "attributeName": "style",
-      "value": "height: 459px; display: inline; width: 689px;"
+      "value": "width: 689px; height: 459px; display: inline;"
     },
     {
       "type": "verifyElementPresent",

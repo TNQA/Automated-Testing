@@ -73,7 +73,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "200"
+      "waitTime": "1000"
     },
     {
       "type": "verifyElementStyle",
@@ -99,6 +99,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "1000"
+    },
+    {
       "type": "doubleClickElement",
       "locator": {
         "type": "id",
@@ -107,7 +111,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "60"
+      "waitTime": "1000"
     },
     {
       "type": "verifyElementStyle",

@@ -337,6 +337,79 @@
         "value": "#segment-dialog-d6885a60-c800-11e4-a186-6fb23d6dc882 > div.segment-content > div.segment-gallery > div.segment-gallery-asset > div.segment-content-image-description > div.segment-content-caption > span"
       },
       "text": "BOB BROWN/TIMES-DISPATCH"
+    },
+    {
+      "type": "print",
+      "text": "////Checking image segments"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "id",
+        "value": "segment-dialog-b7e7f2de-c808-11e4-a1f9-3b846b3f1735"
+      }
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "id",
+        "value": "segment-dialog-b7e7f2de-c808-11e4-a1f9-3b846b3f1735"
+      },
+      "attributeName": "class",
+      "value": "segment-image segments"
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='segment-dialog-b7e7f2de-c808-11e4-a1f9-3b846b3f1735']/div"
+      },
+      "propertyName": "text-align",
+      "value": "center"
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "css selector",
+        "value": ".segment-content-image-description"
+      },
+      "propertyName": "color",
+      "value": "rgba(127,140,141,1)"
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "css selector",
+        "value": "#segment-dialog-b7e7f2de-c808-11e4-a1f9-3b846b3f1735 > div > div.segment-content-image-description > div.segment-content-caption > p"
+      },
+      "text": "U.S. Supreme Court Maureen McDonnell Verdict: Guilty on 8 corruption counts Sentencing guidelines: 5 to 6½ years Sentence: 1 year and 1 day in prison Bob McDonnell Verdict: Guilty on 11 corruption counts Sentencing guidelines: 10 to 12 years Sentence: 2 years in prison ALEXA WELCH EDLUND/TIMES-DISPATCH BOB BROWN/TIMES-DISPATCH"
+    },
+    {
+      "type": "print",
+      "text": "//Clicking thumbnails"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#eedition-page-4ebbfebf-b1e1-5194-92a2-9d7ca32261a8 > a.eedition-thumbnail-link > img.eedition-thumbnail-img"
+      }
+    },
+    {
+      "type": "verifyElementStyle",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='eedition-thumbnails-container']/div"
+      },
+      "propertyName": "transform",
+      "value": "matrix(1, 0, 0, 1, 0, -232)"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#eedition-page-b9b91542-df26-5a9e-83fb-9f824c84ce86 > a.eedition-thumbnail-link > img.eedition-thumbnail-img"
+      }
     }
   ],
   "data": {
